@@ -48,4 +48,5 @@ fn easy_vec_ui(mut easy_vec_ui_resource: ResMut<EasyVecUi>) {
 
 The system is useful for easy state monitoring for rapid development.
 
+Example:
 ![A screenshot showing an example of the two Vec logic system in use in a more complex setting.](images/minigolf_demo.png)
