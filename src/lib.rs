@@ -1,6 +1,5 @@
 use bevy::prelude::*;
 
-use std::time::Duration;
 pub struct BevyEasyVecUiPlugin {
     font_path: String,
     camera_layer: isize,
@@ -70,9 +69,8 @@ impl Plugin for BevyEasyVecUiPlugin {
             data_vec_right: self.data_vec_right.clone(),
         });
         app.insert_resource(EasyVecUiFonts::new());
-        app.insert_resource(EasyVecUiUpdateTimer(Timer::new(Duration::from_millis(250), TimerMode::Repeating)));
         app.add_systems(Startup, setup_ui);
-        app.add_systems(Update, ui_update_system);
+        app.add_systems(Update, update_ui);
     }
 }
 
@@ -150,9 +148,8 @@ pub fn setup_ui(
                 flex_direction: FlexDirection::Column,  // Stack items vertically
                 justify_content: JustifyContent::FlexStart, // Align top-left
                 position_type: PositionType::Absolute,
-                bottom: Val::Percent(0.0), // Position at the bottom of the screen
-                left: Val::Percent(0.0),   // Align it to the left of the screen
-                padding: UiRect::all(Val::Px(8.0)),
+                bottom: Val::Percent(1.0), // Position at the bottom of the screen
+                left: Val::Percent(0.75),   // Align it to the left of the screen
                 ..default()
             },
             ..default()
@@ -180,9 +177,8 @@ pub fn setup_ui(
                 flex_direction: FlexDirection::Column,  // Stack items vertically
                 justify_content: JustifyContent::FlexEnd, // Align top-Right
                 position_type: PositionType::Absolute,
-                bottom: Val::Percent(0.0), // Position at the bottom of the screen
-                right: Val::Percent(0.0),   // Align it to the left of the screen
-                padding: UiRect::all(Val::Px(8.0)),
+                bottom: Val::Percent(1.0), // Position at the bottom of the screen
+                right: Val::Percent(0.75),   // Align it to the right of the screen
                 ..default()
             },
             ..default()
@@ -203,22 +199,6 @@ pub fn setup_ui(
         });
 }
 
-pub fn ui_update_system(
-    time: Res<Time>,
-    mut timer: ResMut<EasyVecUiUpdateTimer>,
-    commands: Commands,
-    fonts: Res<EasyVecUiFonts>,
-    query_left: Query<Entity, With<EasyVecUiNodeLeft>>,
-    query_right: Query<Entity, With<EasyVecUiNodeRight>>,
-    user_supplied: Res<EasyVecUi>,
-) {
-    // Check if the timer has finished
-    if timer.0.tick(time.delta()).finished() {
-        // Call the function to update the connected players Ui
-        update_ui(user_supplied, query_left, query_right, commands, fonts);
-    }
-}
-
 pub fn update_ui(
     user_supplied: Res<EasyVecUi>,
     query_left: Query<Entity, With<EasyVecUiNodeLeft>>,
@@ -235,12 +215,11 @@ pub fn update_ui(
             commands.entity(data_node_container_left).with_children(|parent| {
                 parent
                     .spawn(NodeBundle {
-                        background_color: BackgroundColor(Color::srgba(0.1, 0.1, 0.1, 0.25)), // Semi-transparent dark background
+                        background_color: BackgroundColor(Color::srgba(0.1, 0.1, 0.1, 0.4)), // Semi-transparent dark background
                         style: Style {
                             display: Display::Flex,
                             flex_direction: FlexDirection::Row, // Arrange items horizontally within the row
                             align_items: AlignItems::Center,    // Center items vertically within the row
-                            margin: UiRect::all(Val::Px(5.0)),  // Add some spacing between rows
                             ..default()
                         },
                         ..default()
@@ -256,7 +235,6 @@ pub fn update_ui(
                                 ..default()
                             },
                             style: Style {
-                                margin: UiRect::right(Val::Px(10.0)), // Spacing between player ID and other fields
                                 ..default()
                             },
                             ..default()
@@ -275,12 +253,11 @@ pub fn update_ui(
             commands.entity(data_node_container_right).with_children(|parent| {
                 parent
                     .spawn(NodeBundle {
-                        background_color: BackgroundColor(Color::srgba(0.1, 0.1, 0.1, 0.25)), // Semi-transparent dark background
+                        background_color: BackgroundColor(Color::srgba(0.1, 0.1, 0.1, 0.4)), // Semi-transparent dark background
                         style: Style {
                             display: Display::Flex,
                             flex_direction: FlexDirection::Row, // Arrange items horizontally within the row
                             align_items: AlignItems::Center,    // Center items vertically within the row
-                            margin: UiRect::all(Val::Px(5.0)),  // Add some spacing between rows
                             ..default()
                         },
                         ..default()
@@ -296,7 +273,6 @@ pub fn update_ui(
                                 ..default()
                             },
                             style: Style {
-                                margin: UiRect::right(Val::Px(10.0)), // Spacing between player ID and other fields
                                 ..default()
                             },
                             ..default()

@@ -1,0 +1,10 @@
+D:\bevy\donut\bevy_easy_vec_ui\target\debug\deps\bevy_ecs_macros-590034cd9c44b835.dll: C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bevy_ecs_macros-0.14.2\src/lib.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bevy_ecs_macros-0.14.2\src\component.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bevy_ecs_macros-0.14.2\src\query_data.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bevy_ecs_macros-0.14.2\src\query_filter.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bevy_ecs_macros-0.14.2\src\states.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bevy_ecs_macros-0.14.2\src\world_query.rs
+
+D:\bevy\donut\bevy_easy_vec_ui\target\debug\deps\bevy_ecs_macros-590034cd9c44b835.d: C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bevy_ecs_macros-0.14.2\src/lib.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bevy_ecs_macros-0.14.2\src\component.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bevy_ecs_macros-0.14.2\src\query_data.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bevy_ecs_macros-0.14.2\src\query_filter.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bevy_ecs_macros-0.14.2\src\states.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bevy_ecs_macros-0.14.2\src\world_query.rs
+
+C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bevy_ecs_macros-0.14.2\src/lib.rs:
+C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bevy_ecs_macros-0.14.2\src\component.rs:
+C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bevy_ecs_macros-0.14.2\src\query_data.rs:
+C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bevy_ecs_macros-0.14.2\src\query_filter.rs:
+C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bevy_ecs_macros-0.14.2\src\states.rs:
+C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bevy_ecs_macros-0.14.2\src\world_query.rs:

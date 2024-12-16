@@ -1,0 +1,11 @@
+D:\bevy\donut\bevy_easy_vec_ui\target\debug\deps\libslotmap-40d042abbd56afda.rmeta: C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\slotmap-1.0.7\src\lib.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\slotmap-1.0.7\src\basic.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\slotmap-1.0.7\src\dense.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\slotmap-1.0.7\src\hop.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\slotmap-1.0.7\src\secondary.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\slotmap-1.0.7\src\sparse_secondary.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\slotmap-1.0.7\src\util.rs
+
+D:\bevy\donut\bevy_easy_vec_ui\target\debug\deps\slotmap-40d042abbd56afda.d: C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\slotmap-1.0.7\src\lib.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\slotmap-1.0.7\src\basic.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\slotmap-1.0.7\src\dense.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\slotmap-1.0.7\src\hop.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\slotmap-1.0.7\src\secondary.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\slotmap-1.0.7\src\sparse_secondary.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\slotmap-1.0.7\src\util.rs
+
+C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\slotmap-1.0.7\src\lib.rs:
+C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\slotmap-1.0.7\src\basic.rs:
+C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\slotmap-1.0.7\src\dense.rs:
+C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\slotmap-1.0.7\src\hop.rs:
+C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\slotmap-1.0.7\src\secondary.rs:
+C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\slotmap-1.0.7\src\sparse_secondary.rs:
+C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\slotmap-1.0.7\src\util.rs:

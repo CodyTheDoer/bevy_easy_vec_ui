@@ -1,0 +1,11 @@
+D:\bevy\donut\bevy_easy_vec_ui\target\debug\deps\libasync_task-8a387592b443b532.rmeta: C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\async-task-4.7.1\src\lib.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\async-task-4.7.1\src\header.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\async-task-4.7.1\src\raw.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\async-task-4.7.1\src\runnable.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\async-task-4.7.1\src\state.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\async-task-4.7.1\src\task.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\async-task-4.7.1\src\utils.rs
+
+D:\bevy\donut\bevy_easy_vec_ui\target\debug\deps\async_task-8a387592b443b532.d: C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\async-task-4.7.1\src\lib.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\async-task-4.7.1\src\header.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\async-task-4.7.1\src\raw.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\async-task-4.7.1\src\runnable.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\async-task-4.7.1\src\state.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\async-task-4.7.1\src\task.rs C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\async-task-4.7.1\src\utils.rs
+
+C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\async-task-4.7.1\src\lib.rs:
+C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\async-task-4.7.1\src\header.rs:
+C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\async-task-4.7.1\src\raw.rs:
+C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\async-task-4.7.1\src\runnable.rs:
+C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\async-task-4.7.1\src\state.rs:
+C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\async-task-4.7.1\src\task.rs:
+C:\Users\Codiak\.cargo\registry\src\index.crates.io-6f17d22bba15001f\async-task-4.7.1\src\utils.rs:
