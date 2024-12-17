@@ -1,13 +1,13 @@
 [package]
 name = "bevy_easy_vec_ui"
 version = "0.1.0"
+edition = "2021"
 authors = ["Cody Williams <me@codythedoer.com>"]
 description = "Easy Vec to UI display system for bevy. Options for display on left or right half of display."
 repository = "https://github.com/CodyTheDoer/bevy_easy_vec_ui"
 license = "MIT OR Apache-2.0"
 keywords = ["bevy", "ui", "gamedev", "game", "dev", "quick", "data"]
 readme = "README.md"
-edition = "2021"
 
 [dependencies]
 bevy = "0.14.2"

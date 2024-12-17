@@ -332,6 +332,3 @@ pub struct EasyVecUiStatusText;
 
 #[derive(Component)]
 pub struct EasyVecUiTitleText;
-
-#[derive(Resource)]
-pub struct EasyVecUiUpdateTimer(pub Timer);
